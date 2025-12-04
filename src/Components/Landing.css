@@ -1,0 +1,61 @@
+.paws-landing {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/paws-landing.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.paws-landing p {
+  font-size: 1.7rem;
+  font-weight:lighter;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/* Portrait orientation - fit entire image */
+@media (orientation: portrait) {
+  .paws-landing {
+    background-image: url('../assets/paws-portrait.png');
+    background-size: cover;
+  }
+
+  .paws-landing p {
+    font-size: 1rem;
+    transform: translateY(90px);
+  }
+}
+
+/* Landscape orientation - fill the screen */
+@media (orientation: landscape) {
+  .paws-landing {
+    background-image: url('../assets/paws-landing.png');
+    background-size: cover;
+  }
+
+  .paws-landing p {
+    font-size: 1.3rem;
+    transform: translateY(275px);
+  }
+}
+
+/* Small landscape (like phone in landscape) */
+@media (orientation: landscape) and (max-height: 500px) {
+    .paws-landing {
+        transform: translateY(-40px) ;
+    }
+  .paws-landing p {
+    font-size: 1rem;
+    transform: translateY(150px);
+  }
+}
