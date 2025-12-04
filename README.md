@@ -1,3 +1,6 @@
+# Paws web app
+This is a simple web application that allows users to select their favourite cats by swiping in the appropriate direction.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
