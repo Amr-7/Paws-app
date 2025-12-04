@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/paws-landing.png');
+  background-image: url('../assets/paws-landing.webp');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 /* Portrait orientation - fit entire image */
 @media (orientation: portrait) {
   .paws-landing {
-    background-image: url('../assets/paws-portrait.png');
+    background-image: url('../assets/paws-portrait.webp');
     background-size: cover;
   }
 
@@ -39,7 +39,7 @@
 /* Landscape orientation - fill the screen */
 @media (orientation: landscape) {
   .paws-landing {
-    background-image: url('../assets/paws-landing.png');
+    background-image: url('../assets/paws-landing.webp');
     background-size: cover;
   }
 
